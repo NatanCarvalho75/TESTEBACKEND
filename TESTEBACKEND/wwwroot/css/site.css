@@ -41,9 +41,11 @@ body {
 }
 
 .container {
-    width: 1140px;
+    /*width: 1140px;
     margin: auto;
-    display: flex;
+        display: flex;
+    */
+    margin: auto;
     justify-content: center;
 }
 

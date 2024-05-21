@@ -1,7 +1,15 @@
-
+/* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+/*
 body {
     background-color: #ffffff;
     font-family: Arial, sans-serif;
+    font-size: 24px;
 }
 
 .navbar-colorida {
@@ -15,9 +23,9 @@ body {
     font-weight: 600;
 }
 
-    .navbar-light .navbar-brand span {
+.navbar-light .navbar-brand span {
         color: white
-    }
+}
 
 .navbar button {
     background-color: #135D66;
@@ -32,23 +40,20 @@ body {
     color: white
 }
 
+.container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
 .content {
+    color: #135D66;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 50px;
     display: flex;
     gap: 20px;
-    padding: 20px;
-}
-
-.left-section {
-    flex: 1;
-    background-color: #E3FEF7;
-    color: #135D66;
-    padding: 20px;
-}
-
-.right-section {
-    flex: 1;
-    background-color: #E3FEF7;
-    color: #135D66;
     padding: 20px;
 }
 
@@ -75,4 +80,5 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-}
+}*/
+

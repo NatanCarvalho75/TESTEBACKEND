@@ -18,8 +18,7 @@ namespace TESTEBACKEND.Migrations
                     Especialidade = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Contato = table.Column<int>(type: "int", nullable: false),
-                    Servicos = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Exames = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Servicos = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

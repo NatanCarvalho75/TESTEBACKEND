@@ -43,6 +43,7 @@ body {
 .container {
     /*width: 1140px;
     margin: auto;
+      
         display: flex;
     */
     margin: auto;
@@ -70,6 +71,9 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #77B0AA;
+    color: white;
+    font-weight: bold;
+    font-size:24px;
 }
 
 button {
